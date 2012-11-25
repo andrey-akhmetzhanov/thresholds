@@ -37,6 +37,8 @@ void do_swap(network, gsl_rng *);
 void do_swap_in_the_nhood(network, gsl_rng *);
 
 unsigned int total(network);
+unsigned int total_activation(network,float);
+unsigned int total_number(network,float);
 unsigned int will_go(network);
 
 void shuffle(int *, int, gsl_rng *);
